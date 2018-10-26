@@ -449,6 +449,7 @@ install() {
         echo -e "你的密码            ：\033[41;37m ${password} \033[0m"
         echo -e "你的端口            ：\033[41;37m ${port} \033[0m"
         echo -e "你的加密方式        ：\033[41;37m aes-256-cfb \033[0m"
+	echo -e "梦明哥哥来了  ：github.mengminggo"
         echo -e "本脚本下载转自flyzy2005.com小站   ：\033[41;37m https://www.github.com/flyzy2005 \033[0m"
         get_ss_link
 }
