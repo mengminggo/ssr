@@ -1,0 +1,9 @@
+git clone https://github.com/flyzy2005/ss-fly
+apt-get update&&apt-get -y install git
+ss
+ss-fly/ss-fly.sh -i flyzy2005.com 1024
+ssr
+ss-fly/ss-fly.sh -ssr
+bbr
+ss-fly/ss-fly.sh -bbr
+net.ipv4.tcp_available_congestion_control
