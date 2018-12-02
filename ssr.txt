@@ -1,8 +1,13 @@
 apt-get update///apt-get install git////yum install git
 git clone https://github.com/mengminggo/ssr.git
 ss   ---ssr/ss-fly.sh -i password(mima) port(duankou)
-
 ssr  ---ssr/ss-fly.sh -ssr
-
+   启动：/etc/init.d/shadowsocks start
+  停止：/etc/init.d/shadowsocks stop
+  重启：/etc/init.d/shadowsocks restart
+  状态：/etc/init.d/shadowsocks status
+  ./shadowsocksR.sh uninstall
+  配置文件路径：/etc/shadowsocks.json
+  日志文件路径：/var/log/shadowsocks.log
+  代码安装目录：/usr/local/shadowsocks
 bbr  ---ss-fly/ss-fly.sh -bbr
-net.ipv4.tcp_available_congestion_control
